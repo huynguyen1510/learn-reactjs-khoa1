@@ -1,0 +1,8 @@
+Tạo 1 project trên github
+1/ Tạo 1 github repository(folder) - nơi chứa code
+2/ Clone project này - git clone link_your_repo(https)
+3/ Viết code
+4/ git status (có thể bỏ qua)
+5/ git add .
+6/ git commit -m "Viết comment để ghi nhớ"
+7/ git push origin main
