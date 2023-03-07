@@ -6,3 +6,17 @@ Tạo 1 project trên github
 5/ git add .
 6/ git commit -m "Viết comment để ghi nhớ"
 7/ git push origin main
+
+
+
+
+
+Tạo project trước sau đó mới đẩy lên github
+1/ Tạo 1 github repository(folder)
+2/ git init
+3/ VIết code
+4/ git status
+5/ git add .
+6/ git commit -m "viết comment"
+7/ git remote add origin link_your_repo(https)
+7/ git push origin master
