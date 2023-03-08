@@ -1,18 +1,23 @@
 import React, { Component } from 'react'
 
 export default class BaiTapChonXe extends Component {
+    
+    clickColorCar = () => {
+        console.log("clickColorCar")
+    }
     render() {
         return (
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-7">
+                        {/* src tại sao phải có require? Vì lấy hình trong thư mục, còn lấy hình trên mạng thì không cần require */}
                         <img style={{ width: "100%" }} src={require('../assets/products/black-car.jpg')} alt="black_car" />
                     </div>
                     <div className="col-5">
                         <div className="card text-dark">
                             <div className="card-header text-primary">Exterior Color</div>
                             <div className="card-body">
-                                <div className="row border border-link pt-2 pb-2 mt-2" onClick={()=>{}} style={{cursor:'pointer'}}>
+                                <div className="row border border-link pt-2 pb-2 mt-2" onClick={()=>{this.clickColorCar()}} style={{cursor:'pointer'}}>
                                     <img className="col-2" src={require('../assets/icons/icon-black.jpg')}  alt="black_icon"/>
                                     <div className="col-10">
                                         <h3>Crystal Black</h3>

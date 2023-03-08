@@ -1,9 +1,11 @@
 import './App.css';
-import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
-import HandleEvent from './HandleEvent/HandleEvent';
-import RenderConditions from './RenderConditions/RenderConditions';
-import State from './State/State';
-import Styling from './Styling/Styling';
+import BaiTapRenderFilms from './BaiTapRenderFilms/BaiTapRenderFilms';
+// import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
+import RenderWithLoop from './RenderWithLoop/RenderWithLoop';
+// import HandleEvent from './HandleEvent/HandleEvent';
+// import RenderConditions from './RenderConditions/RenderConditions';
+// import State from './State/State';
+// import Styling from './Styling/Styling';
 
 function App() {
   return (
@@ -12,7 +14,10 @@ function App() {
       {/* <RenderConditions /> */}
       {/* <State/> */}
       {/* <Styling /> */}
-      <BaiTapChonXe/>
+      {/* <BaiTapChonXe/> */}
+      {/* <RenderWithLoop/> */}
+
+      <BaiTapRenderFilms/>
     </div>
   );
 }
