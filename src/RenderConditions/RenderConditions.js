@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 export default class RenderConditions extends Component {
-    login = true;
+    login = false;
     username = "asd asd";
     renderContent = () => {
         if (this.login) {
